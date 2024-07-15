@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    font-family:'Poppins',sans-serif;
+    box-sizing:border-box;
+}
+body{
+    background-image:url(img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+}
+h3{
+    font-size:13px;
+    color:black;
+
+}
+.card{
+ background:rgba(255,255,255,0.3);
+ border:1px solid rgba(255,255,255,0.3);
+ box-shadow:0 4px 30px rgba(0,0,0,0.1);
+backdrop-filter: blur(5px);
+max-width:700px;
+width:450px;
+padding:4px;
+height:480px;
+border-radius: 30px;
+text-align: center;
+}
+/*search place*/
+.search{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top:30px;
+    
+}
+.search input{
+    border:0;
+    outline:0;
+    background: #ebfffc;
+    color:#555;
+    padding:10px 25px;
+    height:60px;
+    border-radius: 30px;
+    flex:1;
+    margin-right:16px;
+    font-size: 18px;
+}
+.search button{
+    border:0;
+    outline:0;
+    background: #ebfffc;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    cursor:pointer;
+}
+.search button img{
+    width:40px;
+    mix-blend-mode: multiply;
+}
+/*image section*/
+.main-image{
+    margin-top:40px;
+}
+.temperature{
+    margin-top:30px;
+}
+/*other-details*/
+.other-details {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top:40px;
+  }
+  .cols {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cols img {
+    margin-right: 5px;
+  }
+
